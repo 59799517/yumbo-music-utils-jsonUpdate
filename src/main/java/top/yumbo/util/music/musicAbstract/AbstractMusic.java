@@ -1,6 +1,6 @@
 package top.yumbo.util.music.musicAbstract;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import lombok.Getter;
 import lombok.Setter;
 import top.yumbo.util.music.MusicEnum;

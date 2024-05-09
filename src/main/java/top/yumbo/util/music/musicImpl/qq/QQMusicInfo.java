@@ -1,6 +1,6 @@
 package top.yumbo.util.music.musicImpl.qq;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.MusicEnum;
 import top.yumbo.util.music.annotation.MusicService;
 import top.yumbo.util.music.annotation.YumboAnnotationUtils;

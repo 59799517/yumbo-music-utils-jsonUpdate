@@ -1,7 +1,7 @@
 package top.yumbo.util;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.chrome.ChromeUtil;
 import top.yumbo.util.music.MusicEnum;
 import top.yumbo.util.music.musicImpl.netease.NeteaseCloudMusicInfo;

@@ -93,7 +93,7 @@ md5_password: md5加密后的密码,传入后 password 将失效
 接口地址 : /login/cellphone
 ###### 调用接口案例
 ```java
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.musicImpl.netease.NeteaseCloudMusicInfo;
 public class NeteaseCloudMusicDemo {
 
@@ -123,7 +123,7 @@ public class NeteaseCloudMusicDemo {
 ###### 第一步、调用登录，也就是上面的测试案例，这个时候cookie会被保存，对于需要登录的接口这个时候就可以直接调用了
  例如：
 ```java
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.musicImpl.netease.NeteaseCloudMusicInfo;
 
 public class NeteaseCloudMusicDemo {
@@ -180,7 +180,7 @@ QQ音乐因为文档中没有提供登录的接口，需要将cookie设置到工
 
 ```java
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.musicImpl.qq.QQMusicInfo;
 
 public class QQMusicDemo {
@@ -214,7 +214,7 @@ public class QQMusicDemo {
 参考我给的一个模板类：OtherMusicInfo，实现自定义音乐
 #### 模板：定义接口的封装类
 ```java
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.MusicEnum;
 import top.yumbo.util.music.annotation.MusicService;
 import top.yumbo.util.music.annotation.YumboAnnotationUtils;
@@ -257,7 +257,7 @@ public class OtherMusicInfo extends AbstractMusic {
 ```
 #### 使用案例：
 ```java
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import top.yumbo.util.music.musicImpl.other.OtherMusicInfo;
 
 public class OtherMusicDemo {

@@ -1,7 +1,7 @@
 package top.yumbo.util.music.annotation;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSON;
+import com.alibaba.fastjson2.JSONObject;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 import top.yumbo.util.music.MusicEnum;

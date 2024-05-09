@@ -1,6 +1,6 @@
 package top.yumbo.util;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import org.springframework.web.client.RestTemplate;
 import top.yumbo.util.music.musicImpl.qq.QQMusicInfo;
 
