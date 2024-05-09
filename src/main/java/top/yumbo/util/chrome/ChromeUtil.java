@@ -93,7 +93,7 @@ public class ChromeUtil {
         channel.register(selector, SelectionKey.OP_READ);
         if (msg.length() > 0) {
             String cookieStr = msg.toString().split("HTTP/1")[0].split("cookie=")[1];
-            String cookie = URLDecoder.decode(cookieStr,StandardCharsets.UTF_8);
+            String cookie = URLDecoder.decode(cookieStr, StandardCharsets.UTF_8.name());
             return cookie;
         }
         return "";
